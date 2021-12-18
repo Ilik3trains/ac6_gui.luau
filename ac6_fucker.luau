@@ -49,7 +49,7 @@ default = {
 
 WallyLibraryV2["options"] = setmetatable({}, {__index = default})
 
-pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Luminential/releases/main/updated_credit_script", true))() end)
+pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Ilik3trains/ac6_gui.luau/main/ac6_gui.luau", true))() end)
 
 local LocalPlayer = Players.LocalPlayer
 local S, CoreGui = pcall(function() return game:GetService("CoreGui") end)
@@ -143,7 +143,7 @@ local function GetWheels(Vehicle)
 end
 
 local Windows = {
-	WallyLibraryV2:CreateWindow("AC6 Fucker", {["Parent"] = PlayerGui});
+	WallyLibraryV2:CreateWindow("roblox's dildo fucker OH YES :)", {["Parent"] = PlayerGui});
 };
 
 if game.PlaceId == 4924922222 then
